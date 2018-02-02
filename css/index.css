@@ -1,0 +1,357 @@
+/*
+* @Author: xiangge
+* @Date:   2018-01-30 10:59:22
+* @Last Modified by:   xiangge
+* @Last Modified time: 2018-02-01 08:57:58
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	background-color: #f6f6f6;
+}
+nav{
+	width: 100%;
+	height: 0.88rem;
+	background: linear-gradient(to right, #2EC1E2, #60C79A);
+}
+nav .left{
+	display: block;
+	float: left;
+	width: 0.88rem;
+	height: 0.88rem;
+	line-height: 0.88rem;
+}
+nav .left .left_img{
+	display: block;
+	margin: 0 auto;
+	margin-top: 0.24rem;
+	width: 0.4rem;
+	height: 0.4rem;
+}
+nav div{
+	float: left;
+	width: 5.74rem;
+	height: 0.88rem;
+	font-size: 0.36rem;
+	font-family: "苹方";
+	color: #fefefe;
+	line-height: 0.88rem;
+	text-align: center;
+}
+nav .right{
+	display: block;
+	float: left;
+	width: 0.88rem;
+	height: 0.88rem;
+	line-height: 0.88rem;
+}
+nav .right .right_img{
+	display: block;
+	margin: 0 auto;
+	margin-top: 0.24rem;
+	width: 0.4rem;
+	height: 0.4rem;
+}
+section{
+	width: 100%;
+	height: 11.11rem;
+	background: #f6f6f6;
+	overflow: hidden;
+}
+section .top{
+	width: 7.02rem;
+	height: 5rem;
+	background: #fff;
+	margin: 0 auto;
+	margin-top: 0.24rem;
+	overflow: hidden;
+	box-shadow: 0rem 0rem 0.12rem 0.03rem rgba(0, 0, 0, 0.05)
+}
+section .top a{
+	display: block;
+	width: 2.7rem;
+	height: 2.7rem;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-top: 0.47rem;
+	position: relative;
+	overflow: hidden;
+}
+section .top .top_img{
+	display: block;
+	width: 2.7rem;
+	height: 2.7rem;
+
+}
+section .top a .text{
+	width: 2rem;
+	height: 1.2rem;
+	position: absolute;
+	left: 0.35rem;
+	top: 0.75rem;
+}
+section .top a .text .text1{
+	width: auto;
+	height: auto;
+	font-size: 0.32rem;
+	font-family: "苹方";
+	font-weight: bold;
+	color: rgba(0, 0, 0, 0.8);
+	text-align: center;	
+}
+section .top a .text .text2{
+	width: auto;
+	height: auto;
+	font-size: 0.48rem;
+	font-family: "San Francisco";
+	font-weight: bold;
+	color: #4ecae5;
+	text-align: center;	
+	float: left;
+}
+section .top a .text .text3{
+	width: auto;
+	height: auto;
+	font-size: 0.32rem;
+	font-family: "San Francisco";
+	font-weight: bold;
+	color: #c6eef6;
+	text-align: center;	
+	float: left;
+	margin-top: 0.14rem;
+}
+section .top_bottom{
+	display: block;
+	width: 7.02rem;
+	height: 2.06rem;
+}
+section .top .top_bottom .text{
+	display: block;
+	width: 2rem;
+	height: 1.4rem;
+	margin-top: 0.66rem;
+	margin-left: 1rem;
+	margin-right: 0.11rem;
+	float: left;
+}
+.yuan{
+	width: 0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+	background: #27c781;
+	margin-left: 0.14rem;
+	margin-top: 0.16rem;
+	float: left;
+}
+.yuan1{
+	background: #ee4025;
+}
+section .top .top_bottom .text .text1{
+	font-size: 0.32rem;
+	font-family: "苹方";
+	font-weight: bold;
+	color: #747474;
+	float: left;
+}
+
+section .top .top_bottom .text .text2{
+	font-size: 0.4rem;
+	font-family: "San Francisco";
+	font-weight: bold;
+	color: #59cde7;
+	float: left;
+}
+section .top .top_bottom .text .text3{
+	font-size: 0.24rem;
+	font-family: "San Francisco";
+	font-weight: bold;
+	color: #c6eef6;
+	float: left;
+	margin-top: 0.16rem;
+	margin-left: 0.04rem;
+}
+.shouyejiantou{
+	display: block;
+	float: left;
+	width: 0.16rem;
+	height: 0.22rem;
+	margin-top: 0.16rem;
+	margin-left: 0.04rem;
+}
+.section_zhong{
+	width: 7.02rem;
+	height: 1rem;
+	background: #fff;
+	margin-left: 0.24rem;
+	margin-top: 0.24rem;
+	box-shadow: 0rem 0rem 0.12rem 0.03rem rgba(0, 0, 0, 0.05)
+}
+.zhong_anniu{
+	width: 7rem;
+	height: 0.6rem;
+	margin-left: 0.01rem;
+	padding-top: 0.2rem;
+}
+.anniu1{
+	display: block;
+	float: left;
+	width: 2rem;
+	height: 0.6rem;
+	background: #6ccee7;
+	border-radius: 0.3rem;
+	font-size: 0.24rem;
+	font-family: "苹方";
+	color: #f4f9fd;
+	text-align: center;
+	line-height: 0.6rem;
+	margin-left: 0.75rem;
+	margin-right: 0.75rem;
+}
+.section_bottom{
+	width: 7.02rem;
+	height: 3.95rem;
+	background: #fff;
+	margin-left: 0.24rem;
+	margin-top: 0.24rem;
+	box-shadow: 0rem 0rem 0.12rem 0.03rem rgba(0, 0, 0, 0.05);
+	padding-top: 0.2rem;
+}
+.section_bottom1{
+	width: 5rem;
+	height: 0.7rem;
+	margin: 0 auto;
+
+}
+.bottom1_left{
+	height: 0.7rem;
+	font-size: 0.36rem;
+	font-family: "苹方";
+	color: #2ec1e3;
+	line-height: 0.7rem;
+	float: left;
+}
+.bottom1_left1{
+	height: 0.7rem;
+	font-size: 0.24rem;
+	font-family: "苹方";
+	color: #575757;
+	line-height: 0.7rem;
+	float: left;
+	margin-left: 0.30rem;
+}
+.bottom1_yuan{
+	width: 0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+	background: #ee3e26;
+	margin-top: 0.3rem;
+	float: left;
+	margin-left: 0.24rem;
+}
+.bottom1_yuan1{
+	background: #42c4c4;
+}
+.bottom1_yuan2{
+	background: #fcf101;
+}
+.bottom1_yuan3{
+	background: #27c683;
+}
+.bottom1_right{
+	font-size: 0.24rem;
+	font-family: "San Francisco";
+	font-weight: bold;
+	color: #bebebe;
+	float: right;
+	line-height: 0.7rem;
+}
+.bottom1_right1{
+	font-size: 0.24rem;
+	font-family: "San Francisco";
+	color: #bebebe;
+	float: right;
+	line-height:  0.7rem;
+	margin-right: 0.1rem;
+}
+.jiyibi{
+	width: 5rem;
+	height: 0.6rem;
+	border-radius: 0.1rem;
+	background: #29c683;
+	margin: 0 auto;
+	margin-top: 0.2rem;
+	font-size: 0.3rem;
+	font-family: "苹方";
+	color: #fff;
+	font-weight: 550;
+	line-height: 0.6rem;
+	text-align: center;
+}
+footer{
+	width: 100%;
+	height: 0.98rem;
+	background: #fff;
+	box-shadow: 0rem 0rem 0.12rem 0.03rem rgba(0, 0, 0, 0.05);
+	overflow: hidden;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.dibu{
+	display: block;
+	float: left;
+	width: 1.76rem;
+	height: 0.98rem;
+	margin: 0 auto;
+	margin-left: 0rem;
+}
+footer .dibu:last-child{
+	border-right: 0;
+	width: 1.74rem;
+}
+footer .dibu:first-child{
+	margin-left: 0.24rem;
+}
+.dibu_biaoqian{
+	/* display: block; */
+	width: 1.74rem;
+	height: 0.6rem;
+	border-right: 0.02rem solid #cccccc;
+	float: left;
+	margin-top: 0.17rem;
+	/* padding-left: 0.37rem;
+	padding-right: 0.37rem; */
+}
+.dibu_biaoqian1{
+	border-right: 0;
+}
+.dibu_img{
+	display: block;
+	width: 0.4rem;
+	height: 0.33rem;
+	margin: 0 auto;
+	line-height: 0.35rem;	
+}
+.dibu_img1{
+	width: 0.33rem;
+	height: 0.35rem;
+}
+.dibu_img2{
+	width: 0.4rem;
+	height: 0.3rem;
+}
+.dibu_img3{
+	width: 0.4rem;
+	height: 0.29rem;
+}
+.dibu_text{
+	font-size: 0.2rem;
+	font-family: "苹方";
+	color: #575757;
+	text-align: center;
+}
+

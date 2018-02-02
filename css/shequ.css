@@ -1,0 +1,519 @@
+/*
+* @Author: xiangge
+* @Date:   2018-01-31 09:54:43
+* @Last Modified by:   xiangge
+* @Last Modified time: 2018-02-01 22:41:54
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	background-color: #f6f6f6;
+}
+header{
+	width: 100%;
+	height: 0.88rem;
+	background: linear-gradient(to right, #2EC1E2, #60C79A);
+}
+header .left{
+	display: block;
+	float: left;
+	width: 0.88rem;
+	height: 0.88rem;
+	display: block;
+	float: left;
+}
+header .left .left_img{
+	display: block;
+	margin: 0 auto;
+	padding-top: 0.24rem;
+	width: 0.4rem;
+	height: 0.3rem;
+}
+header div{
+	float: left;
+	width: 5.74rem;
+	height: 0.88rem;
+	font-size: 0.36rem;
+	font-family: "苹方";
+	color: #fefefe;
+	line-height: 0.88rem;
+	text-align: center;
+}
+nav{
+	width: 100%;
+	height: 3.35rem;
+}
+.banner{
+	display: block;
+	width: 7.5rem;
+	height: 3.35rem;
+	margin-top: 0.02rem;
+	position: relative;
+}
+.banner_imgA{
+	width: 7.5rem;
+	height: 3.35rem;
+	position: relative;
+}
+.banner_imga{
+	width: 7.5rem;
+	height: 3.35rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.banner_png{
+	display: block;
+	width: 7.5rem;
+	height: 3.35rem;
+}
+.banner_lunboA{
+	width: 0.86rem;
+	height: 0.14rem;
+	position: absolute;
+	left: 3.32rem;
+	bottom: 0.2rem;	
+}
+.banner_lunboa{
+	float: left;
+	width: 0.1rem;
+	height: 0.1rem;
+	background: #fff;
+	border-radius: 50%;
+	border: 0.02rem solid 0;
+	margin-right: 0.1rem;
+}
+.banner_lunboA .banner_lunboa:first-child{
+	border: 0.02rem solid #fff;
+	margin-top: -0.02rem;
+}
+.banner_lunboA .banner_lunboa:last-child{
+	margin-right: 0rem;
+}
+.tjxz{
+	width: 7.02rem;
+	height: 3.88rem;
+	background: #fff;
+	box-shadow: 0rem 0rem 0.12rem 0.03rem rgba(0, 0, 0, 0.05);
+	margin-top: 0.24rem;
+	margin-left: 0.24rem;
+}
+.tjxz_top{
+	width: 7.02rem;
+	height: 0.86rem;
+	border-bottom: 0.02rem solid #e5e5e5;
+}
+.tjxz_top_left{
+	width: 2.1rem;
+	height: 0.86rem;
+	margin-left: 0.24rem;
+	float: left;
+}
+.tjxz_top_left img{
+	display: block;
+	float: left;
+	width: 0.24rem;
+	height: 0.24rem;
+	margin-top: 0.2rem;
+	margin-right: 0.06rem;
+}
+.tjxz_top_left .text1{
+	float: left;
+	font-size: 0.26rem;
+	font-family: "苹方";
+	color: #f6b20e;
+	margin-top: 0.12rem;
+}
+.tjxz_top_left .text2{
+	float: left;
+	font-size: 0.24rem;
+	font-family: "苹方";
+	color: #4d4d4d;
+	margin-top: 0.14rem;
+}
+.tjxz_top_left .text3{
+	float: left;
+	font-size: 0.2rem;
+	font-family: "San Francisco";
+	color: #3abb83;
+}
+.tjxz_top_right{
+	display: block;
+	width: 1.2rem;
+	height: 0.86rem;
+	float: right;
+	margin-right: 0.24rem;
+}
+.tjxz_top_right .text1{
+	height: 0.86rem;
+
+	font-size: 0.3rem;
+	font-family: "San Francisco";
+	color: #bfbfbf;
+	font-weight: bold;
+	line-height: 0.86rem;
+	float: right;
+}
+.tjxz_top_right .text2{
+	height: 0.86rem;
+
+	font-size: 0.2rem;
+	font-family: "苹方";
+	color: #bfbfbf;
+	font-weight: bold;
+	line-height: 0.86rem;
+	float: right;
+}
+.tjxz_bottom{
+	width: 7.02rem;
+	height: 3rem;
+}
+.tjxz_bottom1{
+	display: block;
+	float: left;
+	width: 2.32rem;
+	height: 3rem;
+	border-right: 0.02rem solid #e5e5e5;
+}
+.tjxz_bottom .tjxz_bottom1:last-child{
+	border-right: 0;
+}
+.tjxz_bottom1 img{
+	display: block;
+	width: 1.8rem;
+	height: 1.6rem;
+	margin-left: 0.26rem;
+	margin-top: 0.19rem;
+}
+.tjxz_bottom1 .text1{
+	width: 100%;
+	font-size: 0.22rem;
+	font-family: "苹方";
+	color: #585858;
+	text-align: center;
+	margin-top: 0.06rem;
+}
+.tjxz_bottom1 .text2{
+	width: 100%;
+	font-size: 0.2rem;
+	font-family: "苹方";
+	color: #8d8d8d;
+	text-align: center;
+}
+.jiaru{
+	width: 0.64rem;
+	height: 0.28rem;
+	border-radius: 0.14rem;
+	background: #3abb83;
+	font-size: 0.2rem;
+	font-family: "苹方";
+	color: #fff;
+	text-align: center;
+	line-height: 0.28rem;
+	margin-left: 0.84rem;
+	margin-top: 0.08rem;
+}
+.rmht{
+	width: 7.02rem;
+	height: 2.62rem;
+	background: #fff;
+	box-shadow: 0rem 0rem 0.12rem 0.03rem rgba(0, 0, 0, 0.05);
+	margin-top: 0.24rem;
+	margin-left: 0.24rem;
+}
+.rmht_left{
+	float: left;
+	width: 3.5rem;
+	height: 1.74rem;
+	border-right: 0.02rem solid #e5e5e5;
+}
+.rmht .rmht_left:last-child{
+	border-right: 0;
+}
+.rmht_left1{
+	display: block;
+	width: 3.03rem;
+	height: 1.26rem;
+	border-radius: 0.1rem;
+	margin: 0 auto;
+	margin-top: 0.24rem;
+	position: relative;
+}
+.rmht_left1 img{
+	display: block;
+	width: 3.03rem;
+	height: 1.26rem;
+}
+.zhezhao{
+	width: 3.03rem;
+	height: 1.26rem;
+	border-radius: 0.1rem;
+	background: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	left: 0;
+	top: 0;
+	
+}
+.rmht_left1 .text{
+	width: 3.03rem;
+	height: 1.26rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 0.24rem;
+	font-family: "苹方";
+	color: #fff;
+	text-align: center;
+	margin-top: 0.26rem;
+}
+.rmht_left1 .text1{
+	margin-top: 0.62rem;
+}
+.zxtl{
+	width: 7.02rem;
+	height: auto;
+	background: #fff;
+	box-shadow: 0rem 0rem 0.12rem 0.03rem rgba(0, 0, 0, 0.05);
+	margin-top: 0.24rem;
+	margin-left: 0.24rem;
+}
+.zxtl_xiangqing{
+	width: 7.02rem;
+	height: 2.88rem;
+	border-bottom: 0.02rem solid #e5e5e5;
+}
+.xiangqing_top{
+	width: 100%;
+	height: 0.8rem;
+}
+.xiangqing_topleft{
+	float: left; 
+	width: 2.5rem;
+	height: 0.6rem;
+	margin-top: 0.2rem;
+	margin-left: 0.24rem;
+}
+.zxtl_img{
+	display: block;
+	width: 0.6rem;
+	height: 0.6rem;
+}
+.xiangqing_topleft a{
+	display: block;
+	float: left;
+	width: 0.6rem;
+	height: 0.6rem; 
+}
+.xiangqing_topleft .text1{
+	float: left;
+	font-size: 0.24rem;
+	font-family: "苹方";
+	color: #737373;
+	margin-left: 0.24rem;
+}
+.zxtl_img1{
+	display: block;
+	float: left;
+	width: 0.27rem;
+	height: 0.27rem;
+	margin-top: 0.04rem;
+	margin-left: 0.05rem;
+}
+.xiangqing_topleft .text2{
+	float: left;
+	
+	font-size: 0.2rem;
+	font-family: "苹方";
+	color: #a3a3a3;
+	margin-left: 0.24rem;
+}
+.xiangqing_topright{
+	float: right; 
+	width: 1.6rem;
+	height: 0.6rem;
+	padding-top: 0.02rem;
+	margin-right: 0.24rem;
+}
+.xiangqing_topright .text{
+	width: auto;
+	height: 0.6rem;
+	float: right;
+	font-size: 0.2rem;
+	font-family: "苹方";
+	color: #a3a3a3;
+	line-height: 0.6rem;
+}
+.xiangqing_topright img{
+	display: block;
+	float: right;
+	width: 0.11rem;
+	height: 0.17rem;
+	margin-top: 0.2rem;
+	margin-right: 0.05rem;
+}
+.zhengwen{
+	display: block;
+	width: 100%;
+	height: 1.5rem;
+}
+.biaoti{
+	display: block;
+	width: 100%;
+	font-size: 0.22rem;
+	font-family: "苹方";
+	color: #585858;
+	text-align: center;
+	margin-top: 0.05rem;
+}
+.zhengwen p{
+	display: block;
+	width: 6.5rem;
+	height: auto;
+	margin-left: 0.25rem;
+	font-size: 0.2rem;
+	line-height: 0.4rem;
+	font-family: "苹方";
+	color: #b0b0b0;
+}
+.xiangqing_bottom{
+	width: 100%;
+	height: 0.52rem;
+}
+.xiangqing_bottomL{
+	display: block;
+	float: left;
+	width: 1.2rem;
+	height: 0.52rem;
+	padding-left: 0.24rem;
+	font-size: 0.2rem;
+	line-height: 0.52rem;
+	font-family: "苹方";
+	color: #256681;
+}
+.xiangqing_bottomR{
+	display: block;
+	float: right;
+	width: 1rem;
+	height: 0.52rem;
+	
+}
+.xiangqing_bottom .xiangqing_bottomR:first-child{
+	margin-right: 0.24rem;
+}
+.xiangqing_bottomR .left{
+	width: 0.5rem;
+	height: 0.52rem;
+	float: left;
+}
+.pinglun{
+	display: block;
+	
+	width: 0.23rem;
+	height: 0.24rem;
+	margin: 0 auto;
+	margin-top: 0.16rem;
+}
+.xiangqing_bottomR .right{
+	width: 0.5rem;
+	height: 0.52rem;
+	float: right;
+	font-size: 0.22rem;
+	line-height: 0.52rem;
+	font-family: "San Francisco";
+	color: #737373;
+	margin: 0 auto;
+}
+.shouchang{
+	display: block;
+	
+	width: 0.24rem;
+	height: 0.23rem;
+	margin: 0 auto;
+	margin-top: 0.16rem;
+}
+.guankanrenshu{
+	display: block;
+	
+	width: 0.26rem;
+	height: 0.18rem;
+
+	margin-top: 0.17rem;
+}
+.xiangshanghuadong{
+	width: 100%;
+	height: 0.6rem;
+	font-size: 0.2rem;
+	font-family: "苹方";
+	color: #585858;
+	line-height: 0.6rem;
+	text-align: center;
+	margin-top: 0.05rem;
+	padding-bottom: 0.98rem;
+}
+footer{
+	width: 100%;
+	height: 0.98rem;
+	background: #fff;
+	box-shadow: 0rem 0rem 0.12rem 0.03rem rgba(0, 0, 0, 0.05);
+	overflow: hidden;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.dibu{
+	display: block;
+	float: left;
+	width: 1.76rem;
+	height: 0.98rem;
+	margin: 0 auto;
+	margin-left: 0rem;
+}
+footer .dibu:last-child{
+	border-right: 0;
+	width: 1.74rem;
+}
+footer .dibu:first-child{
+	margin-left: 0.24rem;
+}
+.dibu_biaoqian{
+	/* display: block; */
+	width: 1.74rem;
+	height: 0.6rem;
+	border-right: 0.02rem solid #cccccc;
+	float: left;
+	margin-top: 0.17rem;
+	/* padding-left: 0.37rem;
+	padding-right: 0.37rem; */
+}
+.dibu_biaoqian1{
+	border-right: 0;
+}
+.dibu_img{
+	display: block;
+	width: 0.4rem;
+	height: 0.33rem;
+	margin: 0 auto;
+	line-height: 0.35rem;	
+}
+.dibu_img1{
+	width: 0.33rem;
+	height: 0.35rem;
+}
+.dibu_img2{
+	width: 0.4rem;
+	height: 0.3rem;
+}
+.dibu_img3{
+	width: 0.4rem;
+	height: 0.29rem;
+}
+.dibu_text{
+	font-size: 0.2rem;
+	font-family: "苹方";
+	color: #575757;
+	text-align: center;
+}

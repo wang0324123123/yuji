@@ -1,0 +1,295 @@
+/*
+* @Author: xiangge
+* @Date:   2018-02-01 13:32:37
+* @Last Modified by:   xiangge
+* @Last Modified time: 2018-02-02 11:21:39
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{width: 7.5rem;
+	height: 12.94rem;
+	background: url('../img/beijing@2x.png') no-repeat center;
+	background-size: 7.5rem 12.94rem;
+	overflow: hidden;
+}
+
+header{
+	width: 100%;
+	height: 1.28rem;
+}
+header a{
+	display: block;
+	width: 0.88rem;
+	height: 0.88rem;
+	margin-top: 0.4rem;
+	margin-left: 0.24rem;
+	float: left;
+}
+header a div{
+	width: 0.7rem;
+	height: 0.3rem;
+	border-radius: 0.15rem;
+	background: #fff;
+	border: 0.02rem solid #32d8b5;
+	font-family: "苹方";
+	font-size: 0.22rem;
+	color: #2bd698;
+	line-height: 0.3rem;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 0.27rem;
+}
+.touxiang{
+	width: 100%;
+	height: 2.04rem;
+	margin-top: 0.53rem;
+}
+.touxiang a{
+	display: block;
+	width: 1.8rem;
+	height: 1.8rem;
+	border-radius: 50%;
+	border: 0.04rem solid #36e0bc;
+	margin: 0 auto;
+}
+.touxiang a img{
+	display: block;
+	width: 1.8rem;
+	height: 1.8rem;
+}
+.touxiang div{
+	width: 0.16rem;
+	height: 0.16rem;
+	border-radius: 50%;
+	background: #eee21e;
+	margin: 0 auto;
+	margin-top: -0.04rem;
+	z-index: 999;
+}
+.denglu{
+	width: 100%;
+	height: 3.6rem;
+}
+.denglukang{
+	width: 5rem;
+	height: 1.64rem;
+	margin: 0 auto;
+	padding-top: 0.98rem;
+}
+.zhanghao{
+	width: 5rem;
+	height: 0.7rem;
+	border-radius: 0.08rem;
+	background: #fff;
+}
+.zhanghaoL{
+	float: left;
+	width: 0.36rem;
+	height: 0.36rem;
+	padding-left: 0.22rem;
+	padding-top: 0.17rem;
+}
+.zhanghaoL img{
+	display: block;
+	width: 0.28rem;
+	height: 0.28rem;
+	margin: 0 auto;
+	padding-top: 0.04rem;
+}
+.zhanghaoL1{
+	float: left;
+	width: 0.03rem;
+	height: 0.4rem;
+	padding-top: 0.15rem;
+	padding-left: 0.07rem;
+}
+.zhanghaoL1 ul li{
+	width: 0.03rem;
+	height: 0.03rem;
+	border-radius: 50%;
+	background: #96dded;
+	margin-bottom: 0.03rem;
+}
+[type="zhanghao"]{
+	width: 3.6rem;
+	height: 0.36rem;
+	border: 0;
+	display: block;
+	float: left;
+	font-size: 0.24rem;
+	color: skyblue;
+	margin-top: 0.18rem;
+	margin-left: 0.1rem;
+	padding-left: 0.06rem;
+}
+.zhanghaosrk:focus{
+	outline: none;
+}
+.mima{
+	width: 5rem;
+	height: 0.7rem;
+	border-radius: 0.08rem;
+	background: #fff;
+	margin-top: 0.24rem;
+}
+.mima_img{
+	display: block;
+	width: 0.24rem;
+	height: 0.30rem;
+	margin: 0 auto;
+	padding-top: 0.03rem;
+}
+.dlk_text{
+	width: 5rem;
+	height: 0.6rem;
+	margin: 0 auto;
+}
+.dlk_text .text1{
+	float: left;
+	font-family: "苹方";
+	font-size: 0.20rem;
+	color: #fff;
+	line-height: 0.6rem;
+}
+.dlk_text .text2{
+	height: 0.6rem;
+	display: block;
+	float: left;
+	margin-left: 0.1rem;
+	font-family: "苹方";
+	font-size: 0.22rem;
+	color: #eee21e;
+	line-height: 0.6rem;
+}
+.dlk_text .text3{
+	display: block;
+	float: right;
+	font-family: "苹方";
+	font-size: 0.22rem;
+	color: #fff;
+	line-height: 0.6rem;
+}
+.DLAN{
+	width: 100%;
+	height: 1.5rem;
+}
+.DLAN .DLAN_an{
+	display: block;
+	width: 4.92rem;
+	height: 0.72rem;
+	border-radius: 0.36rem;
+	background: #29c682;
+	border: 0.04rem solid #fff;
+	margin: 0 auto;
+	font-family: "苹方";
+	font-weight: bold;
+	font-size: 0.32rem;
+	color: #fff;
+	line-height: 0.72rem;
+	text-align: center;
+}
+.DLAN_text{
+	width: 5rem;
+	padding-left: 1.25rem;
+	padding-top: 0.1rem;
+}
+.wtyan{
+	
+	display: block;
+	float: left;
+	color: #eee21e;
+	margin-top: 0.04rem;
+	margin-left: 0.1rem;
+}
+.DLAN_text1{
+	float: left;
+	font-family: "苹方";
+	font-size: 0.2rem;
+	color: #fff;
+	padding-left: 0.05rem;
+}
+.DLAN_text2{
+	display: block;
+	float: left;
+	font-family: "苹方";
+	font-size: 0.2rem;
+	color: #eee21e;
+}
+footer{
+	width: 100%;
+	height: 2rem;
+	padding-top: 1.5rem;
+}
+
+footer .top_text{
+	float: left;
+	width: 1.68rem;
+	font-family: "苹方";
+	font-size: 0.2rem;
+	color: #fff;
+	margin: 0 auto;
+}
+footer .top{
+	width: 3.48rem;
+	height: 0.8rem;
+	margin: 0 auto;
+}
+
+.dibuyuan{
+	width: 0.1rem;
+	height: 0.1rem;
+	background: #4899af;
+	border-radius: 50%;
+	margin-left: 0.1rem;
+	margin-right: 0.1rem;
+	margin-top: 0.12rem;
+	float: left;
+}
+.dibuyuan1{
+	width: 0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+	margin-left: 0.1rem;
+	margin-right: 0.1rem;
+	float: left;
+	background: #8dc0cd;
+	margin-top: 0.12rem;
+}
+.dibuyuan2{
+	width: 0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+	margin-left: 0.1rem;
+	margin-right: 0.1rem;
+	margin-top: 0.12rem;
+	float: left;
+	background: #fff;
+}
+footer .bottom{
+	width: 4rem;
+	height: 0.8rem;
+	margin: 0 auto;
+}
+footer .bottom a{
+	display: block;
+	float: left;
+	width: 0.7rem;
+	height: 0.7rem;
+	margin-right: 0.89rem;
+}
+footer .bottom img{
+	display: block;
+	float: left;
+	width: 0.7rem;
+	height: 0.7rem;
+	border-radius: 50%;
+	border: 0.02rem solid #fff;
+	margin-right: 0.89rem;
+}
+footer .bottom a:last-child{
+	margin-right:0;
+}
